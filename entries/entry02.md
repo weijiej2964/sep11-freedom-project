@@ -17,7 +17,7 @@ With the imported commands I can then change things in my firebase firestore. Wi
 With deleteDoc is the same but delete instead of add. 
 With orderBy I can change the orientation of the documents etc. 
 
-I am currently in stage 2 and 3 of the EDP process where I research and brainstorm for possible solutions. With the knowledge that I can bring many different commands using the import method, I can think of many solutions to make my project. 
+I am currently in stage 2 and 3 of the EDP process where I research and brainstorm for possible solutions. With the knowledge that I can bring many different commands using the import method, I can think of many solutions to make my project. Planning further, I want to learn Firebase Auth therefore each account will have different content on the website. Also practice Html and CSS to make the interface of the website.
 
 For skills, I have practice ways to learn. Not only do I need to watch videos but also read documentation to understand firebase. Sometimes even ask peers for help whether in school or on slack. Choosing the best method to learn each piece of information has been a big improvement of mine. I can use video tutorials for complex setup such as webpack and use documentation for small chunks of information. 
 
