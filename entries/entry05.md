@@ -49,7 +49,9 @@ document.querySelector('#delete').addEventListener('click', function(event){
 ```
 I take the deleteDoc functon and input db which is database and the collection and the id to choose the specific document then the document will be deleted however to make the card disappear as well I select the document and the use the .remove() function.
 
+### EDP
 
+I am currently on the 5th and 6th step of my engineering design process. I have created my minimum viable product prototype and tested it for error. The product's core system is working however it could be improved by making a better design as well as refactoring exisiting code. I next step is to refactor the code and try to add Auth so that instead of a ananomous product we have username. 
 
 
 [Previous](entry04.md) | [Next](entry06.md)
