@@ -3,7 +3,7 @@
 
 ### Context
 
-Since last time me and my partner have created our prototype with the functions (addDoc, deleteDoc, updateDoc) we have create a prototype with our core function of creating and editing individual cards. 
+Since last time me and my partner have created our prototype with the functions (addDoc, deleteDoc, updateDoc) we have created a prototype with our core function of creating and editing individual cards. 
 
 
 We created the editing function by using updateDoc. updateDoc requires a reference to a specific doc through their id. When creating the cards I put the Id as one of the elements that can be shown so I can easily get the current document I have open. 
@@ -29,12 +29,11 @@ document.querySelector('#save').addEventListener('click', function(){
 })
 ```
 
-However this feature need the user to be able to change the input of the card first do I have paragraph elements setup with contenteditable as true. 
+However this feature needs the user to be able to change the input of the card first. I have paragraph elements setup with contenteditable as true so the user can edit with a click. 
 
 ```html
 <h1 id=title contenteditable="true" >placeholder</h1>
 ```
-This allows the user to be able to change the content of the element using a click. 
 
 Last is to add the feature of deleting which can be done by using deleteDoc and the document's id.
 
@@ -47,18 +46,19 @@ document.querySelector('#delete').addEventListener('click', function(event){
     })
   })
 ```
-I take the deleteDoc functon and input db which is database and the collection and the id to choose the specific document then the document will be deleted however to make the card disappear as well I select the document and the use the .remove() function.
+I take the deleteDoc function and input db which is database and the collection and the id to choose the specific document then the document will be deleted however to make the card disappear as well I select the document and then use the .remove() function.
 
 ### EDP
 
-I am currently on the 5th and 6th step of my engineering design process. I have created my minimum viable product prototype and tested it for error. The product's core system is working however it could be improved by making a better design as well as refactoring exisiting code. I next step is to refactor the code and try to add Auth so that instead of a ananomous product we have username. 
+I am currently on the 5th and 6th step of my engineering design process. I have created my minimum viable product prototype and tested it for error. The product's core system is working however it could be improved by making a better design as well as refactoring existing code. My next step is to refactor the code and try to add Auth so that instead of an anonymous product we have a username. 
 
 ### Skills
 
-Throughout this process I have improve my debugging skills because creating a prototype comes with many errors such as elements sometimes get all deleted at once and sometimes adding new code will invalidate the other codes. Therefore I have adapted a habit with looking in the console for errors and then finding out the reason behind each error. 
+Throughout this process I have improved my debugging skills because creating a prototype comes with many errors such as elements sometimes get all deleted at once and sometimes adding new code will invalidate the other codes. Therefore I have adapted a habit of looking in the console for errors and then finding out the reason behind each error. 
 
 I also developed my skill in research as many bugs are common and websites such as stack overflow is a great community for asking questions and reaching for help. Another way is through researching documentations and tutorials to help figure certain bugs out. 
 
 [Previous](entry04.md) | [Next](entry06.md)
 
 [Home](../README.md)
+
