@@ -1,7 +1,9 @@
 # Entry 5
 ##### 07/26/2005
 
-Text
+### Context
+
+
 
 [Previous](entry04.md) | [Next](entry06.md)
 
