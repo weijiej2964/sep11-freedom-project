@@ -2,7 +2,7 @@
 by Weijie, Jiang
 
 ## Context
-The "Freedom Project" for SEP11 is all about connection and sharing information. The purpose of this blog is to talk about my steps towards creating my project and my experience with learning firebase and webpack. 
+The "Freedom Project" for SEP11 is all about learning javascript tools and using it to create unique websites. The purpose of this blog is to talk about my steps towards creating my project and my experience with learning firebase and webpack. 
 ## Content
 For my project, I am making a bulletin board-like website that will be able to help people share information and ideas. This blog will walk through my process of independently studying Firebase in order to make a database API to store the necessary information such as user and posts.
 
